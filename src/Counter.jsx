@@ -11,6 +11,8 @@ export default function Counter() {
 
     });
 
+    const doubleCount = () => counter() * 2;
+
 
 
 
@@ -21,6 +23,8 @@ export default function Counter() {
     return (
         <div>
             Brojač: {counter()}
+            <br />
+            Dupli brojač: {doubleCount()}
         </div>
     )
 }
