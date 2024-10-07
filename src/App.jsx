@@ -7,6 +7,7 @@ import Flow from './Flow';
 import Login from './Login';
 import Menu from './Menu';
 import MyComponent from'./MyComponent';
+import Refs from './Refs';
 import Styles from './Styles';
 
 
@@ -19,6 +20,7 @@ function App() {
     </div>
     <Events/>
     <Styles/>
+    <Refs/>
   </>
   );
 }
