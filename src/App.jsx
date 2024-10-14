@@ -7,7 +7,9 @@ import Flow from './Flow';
 import Login from './Login';
 import Menu from './Menu';
 import MyComponent from'./MyComponent';
+import Pvp from './Pvp';
 import Refs from './Refs';
+import Spreads from './Spreads';
 import Styles from './Styles';
 
 
@@ -18,9 +20,7 @@ function App() {
           SHARKY3102
           
     </div>
-    <Events/>
-    <Styles/>
-    <Refs/>
+    <Pvp/>
   </>
   );
 }
