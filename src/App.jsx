@@ -1,4 +1,5 @@
 import styles from './App.module.css';
+import Children from './Childern';
 import Counter from './Counter';
 import Counter2 from './Counter2';
 import Dynamo from './Dynamo';
@@ -20,7 +21,7 @@ function App() {
           SHARKY3102
           
     </div>
-    <Pvp/>
+    <Children/>
   </>
   );
 }
