@@ -1,4 +1,5 @@
 import { createSignal, For } from "solid-js";
+import { createStore } from "solid-js/store";
 
 export default function Stores() {
 
@@ -11,6 +12,8 @@ export default function Stores() {
             {name:"Viktor", surname:"Ivić", bill:500},
         ]
     });
+
+    const [db2, setDb2] = createStore();
 
     function applyTax(){
         let newItems = [];
