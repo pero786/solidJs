@@ -12,7 +12,7 @@ import Pvp from './Pvp';
 import Refs from './Refs';
 import Spreads from './Spreads';
 import Styles from './Styles';
-
+import Stores from './Stores';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           SHARKY3102
           
     </div>
-    <Children/>
+    <Stores></Stores>
   </>
   );
 }
